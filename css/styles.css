@@ -41,6 +41,9 @@ header {
 
 b{
     font-weight: bold;
+    margin-right: 3vw;
+    display: inline-block;
+    font-size: large;
 }
 
 body{
@@ -53,7 +56,7 @@ body{
 }
 
 p {
-    display: flexbox;
+    display: flex;
     position: relative;
     /* width: 500px; */
     line-height: 1.3;
@@ -77,6 +80,15 @@ h1 {
     font-size: x-large;
     margin: 10px;
 }
+
+/* display: flex;
+    flex-direction: column;
+    border: 3px solid #ff964f;
+    border-radius: 27px;
+    margin: 20px;
+    padding: 3vw;
+    /* justify-content: center; 
+    align-items: center; */
 
 aside {
     background-color: #FFEAD1;
@@ -131,13 +143,13 @@ a:hover{
 /* Gallery or menu page */
 
 .menuImg {
-    display: flexbox;
+    display: flex;
     flex-direction: column;
     border: 3px solid #ff964f;
     border-radius: 27px;
-    margin: 3vw;
+    margin: 20px;
     padding: 3vw;
-    justify-content: center;
+    align-items: center;
 }
 
 .menuImg:hover {
@@ -172,6 +184,7 @@ footer {
     /* styles to apply if the user's settings are set to reduced motion */
     #homeMap {
         left: 0px;
+        animation: none;
     }
 }
 
