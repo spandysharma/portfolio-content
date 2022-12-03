@@ -45,7 +45,35 @@
             <p> Full Name: <br> <br> Phone Number: <br> <br> Email Id: <br> <br> Address: <br> <br> Select option: <br> Delivery <br> Pickup
             </p>
         </main>
-
+        <aside>
+            <form action="https://formspree.io/f/xdojrqez" method="POST">
+                <label>
+                    Full Name:
+                    <input type="name" name="name" required>
+                </label>
+                <label>
+                    Phone Number:
+                    <input type="number" name="number" required>
+                </label>
+                <label>
+                    Email ID:
+                    <input type="email address" name="email" required>
+                </label>
+                <label>
+                    Address:
+                    <input type="text" name="Address" required>
+                </label>
+                <label>
+                    Delivery/Pickup:
+                    <select name="department" required>
+                        <option value="delivery">Delivery</option>
+                        <option value="pickup">Pickup</option>
+                    </select>
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit">Send</button>
+            </form>
+        </aside>
         <footer>
             <!-- <img class="logo" src="images/favicon.png" alt="A green pepper"> -->
             <i class="fa-solid fa-pepper-hot fa-lg"></i>
