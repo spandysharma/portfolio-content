@@ -25,6 +25,7 @@
         <title>Mirchi Masala: Contact Us</title>
     </head>
     <body>
+        <div class="skip"><a href="#jump">Skip to Main Content</a></div>
         <nav>
             <ul class="navLinks">
                 <li ><a href="index.html">Home</a></li>
@@ -34,15 +35,16 @@
             </ul>
         </nav>
         <header>
-            <h1>We love to hear from you!</h1>
+            <h1>Let's talk!</h1>
         </header>
-        <main>
-            <p>Ordering for a large group? Need us to cater an event? Worry not becuase we got
+        <img class="contactImg" src="images/phone-call.png" alt="Person on a phone call">
+        <main id="jump">
+            <p> <b>Ordering for a large group? Need us to cater an event?</b></p> <p>Worry not because we got
                 your back. Please select the appropriate option from the drop down menu. We prioritize
                 catering and group orders and will get back to you within 2 business days at the latest.
             </p>
             <br>
-            <p>Mirchi Masala values your feedback. If we have done something that can be improved 
+            <p><b>We value your feedback.</b></p> <p> If we have done something that can be improved 
                 or we have done something right that made your day, we would love to hear it! Please
                 fill out the form below and we will get back to you within 3 business days.
             </p>
@@ -50,7 +52,7 @@
             <p>Catering Query <br> Group Order <br> Feedback <br> Other <br> </p>
             <p>Write your feedback below: <br> <br> <br> <br> </p> -->
             <br>
-            <p>We have social media! <br> Follow us on Instagram where we offer discounts and select a
+            <p>We also have social media! <br> Follow us on Instagram where we offer discounts and select a
                 random customer each month to try out our latest dishes.
             </p>
         </main>
@@ -65,12 +67,24 @@
                     <input type="email address" name="email" required>
                 </label>
                 <label>
+                    Catering/Large Order:
+                    <select name="department" required>
+                        <option value="pickup">N/A</option>
+                        <option value="delivery">Catering</option>
+                        <option value="pickup">Large Order</option>
+                    </select>
+                </label>
+                <label>
                     Phone Number (optional):
                     <input type="number" name="number">
                 </label>
                 <label>
-                    Write your feedback below:
-                    <textarea name="message" required></textarea>
+                    Additional information (optional):
+                    <textarea name="message"></textarea>
+                </label>
+                <label>
+                    Please write your feedback below (optional):
+                    <textarea name="message"></textarea>
                 </label>
                 <!-- your other form fields go here -->
                 <button type="submit">Send</button>
@@ -79,6 +93,7 @@
         <footer>
             <i class="fa-solid fa-pepper-hot fa-lg"></i>
             <p> <br> Mirchi Masala is a fictional creation. <br>
+                121 South State St., Ann Arbor, MI 48104 <br>
                 Check us out on FB, IG, and LinkedIn!
             </p>
         </footer>
