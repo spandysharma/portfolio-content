@@ -365,6 +365,11 @@ footer {
     .contactImg {
         width: 18vw;
     }
+
+    #homeMap {
+        width: 40%;
+        min-width: 320px;
+    }
 }
 
 /* DESKTOP VIEW */
@@ -417,5 +422,9 @@ footer {
 
     .contactImg {
         width: 15vw;
+    }
+
+    #homeMap {
+        width: 40%;
     }
 }
